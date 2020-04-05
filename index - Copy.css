@@ -1,0 +1,722 @@
+*{
+
+  font-family:helvetica;
+
+  box-sizing: border-box;
+}
+.navbar-brand{
+  margin:0px !important;
+padding:0 !important;
+}
+
+.outer{
+  margin:auto;
+margin-top: 40px;
+  display: flex;
+}
+#b1,#b2,#b3{
+  color:white !important;
+}
+button{
+  outline: none !important;
+}
+td{
+  border-right: 2px solid gray;
+}
+.inner button{  width:100vw;
+}
+
+  .world{
+background:none !important;
+    justify-content:center;
+    width:95%;
+    padding: 0px; 
+    display: flex;
+    flex-direction: row;
+  
+  }
+.inner{
+  width:40%;
+}
+.inner button{
+  outline: none;
+  color:white;
+  border:0px;
+  border-radius: 30px !important;
+  padding-top:25px;
+  justify-content: space-around;
+width: 100px;
+
+text-transform: uppercase;
+font-size: 25px;
+letter-spacing: 5px;
+line-height: 20px;
+    height: 100px;
+  display: flex;
+   flex-direction: row;
+}
+
+
+.data{
+  border-radius: 20px !important;
+  width:55%;
+
+
+/*  position: relative;
+  top:-400px;
+  left:150px;*/
+}
+label{
+  margin-top:10px;
+  margin-bottom: 0px !important;
+  padding:0px !important;
+}
+
+.data h3 {display: flex;
+    background-color:gray !important;
+
+  flex-direction: row;
+  border-radius: 35px !important;
+color:white;
+  border-bottom: 1px solid silver;
+  font-size: bolder;
+font-size:80px;
+height: 100px;
+font-family:roman !important;
+margin:0px;
+font-weight:bolder;
+letter-spacing: 3px;
+text-align: center;
+  justify-content: space-around;
+z-index: 999;
+}
+
+.bigger{
+  margin:auto;
+  padding:auto;
+  margin:auto;
+  width:100%;
+
+  justify-content: space-around;
+  border:2px solid red;
+
+}
+
+#back2Top {
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 200px;
+    right: 0;
+    background-color: #DDD;
+    color: #555;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+#back2Top:hover {
+    background-color: #DDF;
+    color: #000;
+}
+
+
+.arrow{
+  position: fixed;
+  font-size: 30px !important;
+  left:97% !important;
+  z-index: 9999;
+  top:300px !important;
+}
+.subhead2{
+  position: relative;
+  top:10px;
+  margin-bottom:10px;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+.ch{
+transition-delay: .6s;
+  background:silver;
+    color:black;
+    font-weight: bold;
+    
+  } 
+  .changeread{
+    color:green;
+  }
+  .narration,.narration2,.narration3{
+    display: none;
+  }
+
+  .easy{
+    border-color:
+    background-color:gray;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 25px;
+    position: absolute;
+    z-index: 9999;
+    left:100%;
+  }
+
+.overview,.prevention,.symtoms{
+  padding: :0px !important;
+  height: 120%;
+}
+.navbar-brand{
+  left:10px;
+  position: relative;
+  animation-name:name;
+  animation-iteration-count: infinite;
+  animation-duration:3s;
+
+}
+@keyframes name{
+  0%{
+    color:red;
+  }
+}
+.nav-link{
+  letter-spacing: 2px;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: bold;
+  outline: none;
+}
+.nav-link:hover{
+    color:black;
+    border-bottom:1px solid silver;
+
+}
+.mymodal{z-index: 1;
+  left:30vw;
+padding: 0px;
+margin-top:20px;
+  display: none;  
+top:40vh;
+  position: absolute;
+  width:30vw;
+  height: 8vw;
+}
+.mymodal button{height: 120px;
+}
+.mymodal .closemodal{
+height: 30px;
+outline: none;
+  position: relative;
+  left:29vw;
+  top:-126px;
+
+}
+
+.india{
+  border-left: 1px solid silver;
+width:100%;
+padding:0px;
+
+  position: relative;
+}
+
+
+#red{
+  height: 100%;
+  background-color:black;
+  color:red;
+}
+
+.ani td{
+  animation:new 3s infinite;
+}
+
+
+
+.row1{
+}
+.row2{
+  padding-bottom:20px;
+  width:90%;
+  height: 100%;
+}
+th{
+  padding:0px !important;
+  text-align:center;
+  color:black;
+text-transform: uppercase;
+}
+
+
+tr
+{
+border-bottom: 1px solid silver;
+    background-color: black;
+    opacity: .8;
+    font-weight: bolder;
+
+  height: 60px;
+
+
+}
+.narration{
+  display: none;
+}
+td{
+  color:white;
+
+  font-weight: bolder;
+}
+.number{
+  color:green;
+  margin-right:10px;
+}
+
+section{
+padding-left: 10px;
+height: 100% !important;
+  font-family:courier;
+  
+  font-size: 20px;  
+border-radius: 25px;
+margin-bottom: 5px;
+
+box-shadow:0 0 5px  3px silver;
+  /*box-shadow: 4px 3px 2px 2px  silver;*/
+}
+section::first-letter{
+
+  font-size: 25px;
+  font-weight: bolder;
+}
+ tr:hover td{
+
+    background-image: linear-gradient(rgba(50,120,230,.2), rgba(20,130,250,1));*/
+
+}
+#logo{
+  background-visibility:.5;
+background:none!important;
+  animation:move  5s linear infinite;
+  border-radius: 25px;
+  width:40px;
+}
+.virus{
+  top:30px;
+position: relative;
+  width: 90%;
+
+}
+
+
+.subhead{
+font-family:roman;
+height: 40px;
+width:100%; 
+text-align:center;
+border:0px !important;
+text-transform: uppercase;
+  font-size: 35px;
+  color:steelblue;
+  font-weight: bold;
+  word-spacing: 3px;
+  margin-bottom:20px !important;
+}
+
+.imglr img,.country{
+  padding-left: 0px;
+  padding-bottom: 5px;
+    display: flex;
+  width:60px;
+  border-radius:55%;
+  animation-name:move 3s linear infinite;
+
+}
+.imglr img{
+
+  /*margin-bottom: 10px;*/
+}
+.country{
+  left:5px;
+  color:green;
+  font-weight: bolder;
+  z-index: 1;
+  position: absolute;
+}
+.top5 table{
+text-align: center;
+
+width: 100%;}
+.top5{
+  margin:auto;
+  width:50%;
+  margin:0px;
+  margin-left:8%;
+  border-left: 1px solid silver;
+
+}
+.india{
+
+/*background: url('../images/coronalogo.jpg');*/
+margin:0px;
+padding:0px !important;
+  height: 180px;
+
+
+  position: relative;
+}
+.india .states{
+outline-style: none;
+border:none;
+width:100%;
+  position: relative;
+}
+.india table{
+
+  width:100%;
+}
+.india table td{
+  text-align: center;
+  color:white;
+  letter-spacing: 5px;
+  font-size: 20px;  
+  height: 120px;
+}
+
+
+@keyframes move{
+  0%{
+
+    transform: rotate(0deg);
+  }
+
+  100%{
+
+    transform: rotate(360deg);
+  }
+
+}
+
+
+@media screen and (min-width: 1200px)
+
+{
+  
+
+
+.navbar-nav .nav-item{
+
+  margin-left: 5vw;
+}
+
+#cancelb1,#cancelb2,#cancelb3{
+  display: none;
+}
+.prevention button{
+  width: 100% !important;
+
+}
+  .row2{
+    left:80px;
+  border-bottom: 1px solid silver;
+height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+
+  }
+
+
+#b1,#b2,#b3,.o{
+  font-family: roman;
+font-size: 25px;
+  width:100%;
+color:white;
+outline-style: none;
+position: relative;
+margin-bottom: 10px;
+border-radius: 5px;
+  font-weight: bolder;
+text-transform:uppercase;
+letter-spacing: 3px; 
+color:white ;
+}
+.
+.global{
+
+}
+
+.virus{
+  left:100px;
+  margin:0px !important;
+margin-bottom:80px !important;
+  padding-bottom: 20px;
+    border-bottom: 1px solid silver;
+  position: relative;
+  width:90%;
+  top:50px;
+line-height: 35px;
+  text-align: center;
+}
+
+}
+@media screen and (max-width: 480px)  
+{
+
+
+.top5{
+  margin:0px !important;
+  width:100% !important;
+  padding:0px !important;
+
+}
+  .world{
+      width:100% !important;
+    background:none;
+    padding: 0px  !important;
+    display: flex;
+  
+  }
+  nav{
+      padding:0px !important;
+  }
+.inner{
+  width:100% !important;
+}
+.inner button{
+  text-align: center;
+  justify-content: space-around;
+width: 100px;
+padding-top:10px !important;
+border-radius: 0px ;
+padding-left: 0px !important;
+font-size: 12px;
+line-height: 20px;
+    height: 100px;
+  display:block;
+}
+
+
+.data{
+  width:60%;
+
+height: 100%;
+
+/*  position: relative;
+  top:-400px;
+  left:150px;*/
+}
+
+.data h3 {display: flex;
+  flex-direction: column;
+font-size: 45px;
+background-color:gray;
+height: 100px;
+margin:0px;
+
+text-align: center;
+  justify-content: space-around;
+z-index: 999;
+}
+
+
+  .prevention-img {
+    padding:0px !important ;
+    padding-bottom: 30px  !important;
+      border-bottom: 1px solid silver;
+display:flex;
+flex-direction: column;
+width: 100%;
+position: relative;
+}
+.prevention-img table{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.prevention-img tr{
+  width:100px;
+  font-size: 15px;
+}
+
+.prevention-img td{
+  width: 100%;
+  padding:0px !important;
+  text-align: center;
+  padding-top:13px !important;
+  border-right: 1px solid silver;
+  font-size: 16px;
+  letter-spacing:1px;
+    text-align: center;
+}
+#b1,#b2,#b3{
+
+outline-style: none;
+position: relative;
+border-radius: 5px;
+  font-weight: bolder;
+text-transform:uppercase;
+letter-spacing: 3px; 
+color:black;
+  width:100%;
+}
+.overview{
+  margin-top:20px !important;
+}
+
+.nav-link{
+  letter-spacing: 2px;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: bold;
+  outline: none;
+
+}
+.content1,.content2,.content3{
+justify-content: space-around;
+
+
+
+
+}
+
+.imglr{
+box-sizing: border-box;
+  width:86px;
+  position: relative;
+}
+.imglr img,.country{
+  padding-left: 0px;
+  padding-bottom: 5px;
+    display: flex;
+  width:60px;
+  border-radius:40px;
+  animation-name: move;
+animation-duration: 60s;
+animation-delay: 2s;
+animation-iteration-count: infinite;
+}
+
+.outer{
+  display: flex;
+  width:100%;
+
+  flex-direction: column;
+}
+
+.country{
+  left:5px;
+  color:white;
+  font-weight: bold;
+  z-index: 1;
+  position: absolute;
+}
+
+@keyframes move{
+  0%{
+    transform: rotate(360deg);
+  
+  }
+}
+.row2{
+  position: relative;
+  display: flex;
+  padding:0px !important;
+  left:9vw;
+  flex-direction: column;
+}
+.virus{
+    width:90% !important;
+    padding:0px !important;
+}
+
+.overview,.prevention,.symtoms{
+padding:0px !important;
+width:100% !important;
+  position: relative;
+margin-top: 50px;
+  border-radius: 15px;
+}
+.virus{
+    margin-top:20px;
+}
+
+.easy{
+left:20px;
+top:-5px;
+
+padding:0px;
+  border-radius: 50px;
+background-color: black;
+color:skyblue;
+}
+th{
+  padding:10px;
+}
+
+.navbar-toggler .navbar-toggler-icon{
+border-radius: 20px;
+border:0px;
+background:none;
+  background-image:url('logo1.jpg');
+}
+.navbar-toggler{
+  outline: none;
+  top:5px;
+  position: relative;
+}
+.navbar-brand{
+    font-size:22px !important;
+    padding:0px !important;
+
+}
+.india .states{
+    width:100% !important;
+}
+#logo{
+  position: relative;
+
+}
+
+
+.india table{
+  width: 100%;
+}
+.india{
+    border-bottom: 1px solid silver;
+width:100% !important;
+  margin-bottom: 100px;
+  
+  height: 180px;
+  margin:0px !important;
+  padding:0px !important;
+  position: relative;
+  top:80px;
+
+}
+.footer{
+  margin-top: 120px;
+  position: relative;
+}
+.arrow{
+  position: absolute !important;
+  left:330px !important;
+  z-index: 9999;
+}
+  .o{
+  display: none !important;
+}
+
+}
+
+
+
+
+
